@@ -6,12 +6,12 @@ class App < Sinatra::Base
   
   get '/' do
     
-    erb :team.erb
+    erb :super_hero
   end
   
   post '/teams'
     
-    erb :team.erb
+    erb :team
   end
   
   
