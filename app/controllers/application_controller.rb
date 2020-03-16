@@ -8,6 +8,8 @@ class App < Sinatra::Base
     
     erb :team.erb
   end
+  
+  post 'teams'
     
   
 
